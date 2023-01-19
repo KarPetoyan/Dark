@@ -14,6 +14,9 @@ burger.addEventListener("click", ()=>{
 
 burgerMenuLi.forEach((item)=>{
     item.addEventListener("click", ()=>{
+        burgerLine1.classList.remove("burger1-js")
+        burgerLine2.classList.remove("burger2-js")
+        burgerLine3.classList.remove("burger3-js")
         burgerMenu.classList.remove("burger_menu-js")
     })
 })
